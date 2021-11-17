@@ -12,12 +12,13 @@ form.style.cssText = `display: flex; flex-direction:column; align-items: center;
 
 inputs.forEach(
   (el) =>
-    (el.style.cssText = `display:block; height: 2.5rem; width: 35%; margin: 0 auto; padding: 0.1em 1em; color: #000; background-color: lightblue; border-radius: 10px;font-family: "Roboto", sans-serif; font-size: 1rem;`)
+    (el.style.cssText = `display:block; height: 2.5rem; width: 35%; margin: 0 auto; padding: 0.1em 1em; color: #000; background-color: lightblue; border-radius: 10px;font-family: "Roboto", sans-serif; font-size: 0.5rem;
+    }`)
 );
 
-typeInput.style.cssText = `display:block; height: 2.5rem; width: 25%; margin: 0 auto; padding: 0.1em 1em; color: #000; background-color: lightblue; border-radius: 10px; text-align:center; font-family: "Roboto", sans-serif; font-size: 1.2rem;`;
+typeInput.style.cssText = `display:block; height: 2.5rem; width: 25%; margin: 0 auto; padding: 0.1em 1em; color: #000; background-color: lightblue; border-radius: 10px; text-align:center; font-family: "Roboto", sans-serif; font-size: 0.5rem;`;
 
-submitBtn.style.cssText = `background-color: #9cef8f;display:block; height: 2.5rem; width: 25%; margin: 0 auto 3rem auto; padding: 0.1em 1em; color: #000;border-radius: 10px; font-family: "Roboto", sans-serif; font-size: 1.2rem;`;
+submitBtn.style.cssText = `background-color: #9cef8f;display:block; height: 2.5rem; width: 25%; margin: 0 auto 3rem auto; padding: 0.1em 1em; color: #000;border-radius: 10px; font-family: "Roboto", sans-serif; font-size: 0.5rem;`;
 
 // Remove Default Submit behavior
 form.onsubmit = function (s) {
